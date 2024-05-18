@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DizTudo_app</string>
+    <string name="nome_app">DizTudo!</string>
+    <string name="descri"> Playlist para você estudar em qualquer lugar </string>
+    <string name="btn_exatas"> EXATAS </string>
+    <string name="btn_humanas"> HUMANAS </string>
+    <string name="btn_lin"> LINGUAGENS </string>
+    <string name="btn_cien"> CIÊNCIAS </string>
+
+</resources>
