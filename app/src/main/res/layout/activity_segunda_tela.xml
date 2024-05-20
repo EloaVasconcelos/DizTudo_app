@@ -5,6 +5,240 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/elipseexata"
+    android:textAlignment="center"
+    app:flow_verticalAlign="center"
     tools:context=".segunda_tela">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="256dp"
+                    android:layout_height="260dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.074"
+                    app:srcCompat="@drawable/exatas" />
+
+                <TextView
+                    android:id="@+id/titulo_exatas"
+                    android:layout_width="205dp"
+                    android:layout_height="66dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/nome_exatas"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.485" />
+
+                <TextView
+                    android:id="@+id/desc_exatas"
+                    android:layout_width="289dp"
+                    android:layout_height="54dp"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/desc_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.602" />
+
+                <Button
+                    android:id="@+id/music1_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music1_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:iconTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694" />
+
+                <Button
+                    android:id="@+id/music2_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music2_exatas"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/music3_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music3_exatas"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/music4_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music4_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/music5_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music5_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/music6_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music6_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/music7_exatas"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="315dp"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#FF2C69"
+                    android:fontFamily="@font/inter_bold"
+                    android:text="@string/music7_exatas"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:icon="@android:drawable/ic_media_play"
+                    app:iconPadding="8dp"
+                    app:iconSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.694"
+                    app:iconTint="@color/white"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
