@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/portugues_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Activity_estuday">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#0CC0DF"
+        android:contentDescription="header_estuday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_portu"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00A5C3"
+        android:contentDescription="@string/botao_de_portugues"
+        android:fontFamily="@font/inter_bold"
+        android:onClick="janelaport"
+        android:text="@string/portugu_s"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <Button
+        android:id="@+id/btn_mat"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF3131"
+        android:contentDescription="@string/botao_de_matematica"
+        android:fontFamily="@font/inter_bold"
+        android:text="Matemática"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_portu"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/btn_ci"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00BF63"
+        android:contentDescription="@string/botao_de_ciencias"
+        android:fontFamily="@font/inter_bold"
+        android:text="Ciências"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <Button
+        android:id="@+id/btn_hist"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF914D"
+        android:contentDescription="@string/botao_de_historia"
+        android:fontFamily="@font/inter_bold"
+        android:text="História"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <Button
+        android:id="@+id/btn_filo"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#CB6CE6"
+        android:contentDescription="@string/botao_de_filo"
+        android:fontFamily="@font/inter_bold"
+        android:text="Filosofia"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/btn_art"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#EBBC00"
+        android:contentDescription="botao_de_artes"
+        android:fontFamily="@font/inter_bold"
+        android:text="Artes"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#0CC0DF"
+        android:contentDescription="barra_cima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/texto_cima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="EstuDay"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <TextView
+        android:id="@+id/texto_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="Cursos"
+        android:textAlignment="viewEnd"
+        android:textColor="#3F51B5"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_portu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <TextView
+        android:id="@+id/texto_baixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="Escolha o curso de seu agrado!"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

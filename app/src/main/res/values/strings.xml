@@ -15,5 +15,11 @@
     <string name="music5_exatas">TRIGONOMETRIA</string>
     <string name="music6_exatas">EXPRESSÃO NUMÉRICA</string>
     <string name="music7_exatas">DIVISIBILIDADE</string>
+    <string name="botao_de_portugues">botao_de_portugues</string>
+    <string name="botao_de_ciencias">botao_de_ciencias</string>
+    <string name="botao_de_filo">botao_de_filo</string>
+    <string name="botao_de_historia">botao_de_historia</string>
+    <string name="botao_de_matematica">botao_de_matematica</string>
+    <string name="portugu_s">Português</string>
 
 </resources>

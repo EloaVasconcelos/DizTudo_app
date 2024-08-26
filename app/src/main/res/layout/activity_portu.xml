@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/portugues_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".portu_act">
+
+    <View
+        android:id="@+id/barra_cima_port"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#0CC0DF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/estuday_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="EstuDay"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/barra_cima_port"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <Button
+        android:id="@+id/btn_interpre"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="Segunda: Interpretação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/btn_func"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="Terça: Funções"
+        app:iconTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/btn_vari"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="Quarta: Variação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/btn_figu"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="Quinta: Figuras Ling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <Button
+        android:id="@+id/btn_grama"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="Sexta: Gramatica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <Button
+        android:id="@+id/btn_movi"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00A5C3"
+        android:text="sab/dom movimentos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <Button
+        android:id="@+id/btn_ex1_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex Segunda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btn_ex2_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex Terça"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btn_ex3_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex Quarta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/barra_cima_port"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btn_ex4_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex Quinta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <Button
+        android:id="@+id/btn_ex5_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex Sexta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <Button
+        android:id="@+id/btn_ex6_port"
+        android:layout_width="108dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#00BF63"
+        android:text="Ex sab/dom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/crono_port"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="Cronograma de estudo"
+        android:textColor="#00A5C3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/ex_port"
+        android:layout_width="275dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/spartan_extrabold"
+        android:text="Exercicios/Exemplos"
+        android:textColor="#00BF63"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+</androidx.constraintlayout.widget.ConstraintLayout>
