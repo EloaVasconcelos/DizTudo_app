@@ -3,7 +3,6 @@ package com.example.diztudo_app;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -28,11 +27,11 @@ public class portu_act extends AppCompatActivity {
         });
 
 
-        Button btnInterpre = findViewById(R.id.btn_interpre);
+        Button btnInterpre = findViewById(R.id.btn_interpretacao);
         Button btnFunc = findViewById(R.id.btn_func);
         Button btnVari = findViewById(R.id.btn_vari);
         Button btnFigu = findViewById(R.id.btn_figu);
-        Button btnGrama = findViewById(R.id.btn_grama);
+        Button btnGrama = findViewById(R.id.btn_logi);
         Button btnMovi = findViewById(R.id.btn_movi);
         Button btnEx1 = findViewById(R.id.btn_ex1_port);
         Button btnEx2 = findViewById(R.id.btn_ex2_port);

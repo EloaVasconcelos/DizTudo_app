@@ -2,7 +2,6 @@ package com.example.diztudo_app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -19,7 +18,7 @@ public class activityescolha extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_activityescolha);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.matematica_act), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;

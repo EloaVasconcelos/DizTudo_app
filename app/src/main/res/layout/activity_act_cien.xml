@@ -2,12 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/portugues_act"
+    android:id="@+id/ciencias_act"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    tools:context=".portu_act">
+    tools:context=".act_cien">
 
     <View
         android:id="@+id/barra_cima_port"
@@ -35,92 +34,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.771" />
 
-    <Button
-        android:id="@+id/btn_interpretacao"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="Segunda: Interpretação"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/btn_func"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="Terça: Funções"
-        app:iconTint="#FF0000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/btn_vari"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="Quarta: Variação"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.915"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/btn_figu"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="Quinta: Figuras Ling"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.326" />
-
-    <Button
-        android:id="@+id/btn_logi"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="Sexta: Gramatica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.326" />
-
-    <Button
-        android:id="@+id/btn_movi"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00A5C3"
-        android:text="sab/dom movimentos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.326" />
-
     <TextView
         android:id="@+id/crono_artes"
         android:layout_width="341dp"
         android:layout_height="47dp"
         android:fontFamily="@font/spartan_extrabold"
         android:text="Cronograma de estudo"
-        android:textColor="#00A5C3"
+        android:textColor="#00bf63"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,79 +65,159 @@
         app:layout_constraintVertical_bias="0.618" />
 
     <Button
-        android:id="@+id/btn_ex1_port"
+        android:id="@+id/btn_cito"
         android:layout_width="108dp"
         android:layout_height="88dp"
-        android:backgroundTint="#00BF63"
+        android:backgroundTint="#00bf63"
+        android:text="Segunda Citologia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <Button
+        android:id="@+id/btn_gene"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Terça Genética"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <Button
+        android:id="@+id/btn_fisio"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Quinta Fisiologia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btn_bota"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Sexta Botanica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/barra_cima_port"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btn_eco"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Quarta Ecologia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <Button
+        android:id="@+id/btn_micro"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Sab/dom microbiologia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btn_ex1_cien"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
         android:text="Ex Segunda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/barra_cima_port"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
 
     <Button
-        android:id="@+id/btn_ex2_port"
+        android:id="@+id/btn_ex2_cien"
         android:layout_width="108dp"
         android:layout_height="88dp"
-        android:backgroundTint="#00BF63"
+        android:backgroundTint="#00bf63"
         android:text="Ex Terça"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <Button
-        android:id="@+id/btn_ex4_port"
+        android:id="@+id/btn_ex3_cien"
         android:layout_width="108dp"
         android:layout_height="88dp"
-        android:layout_marginStart="28dp"
-        android:backgroundTint="#00BF63"
-        android:text="Ex Quinta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
-
-    <Button
-        android:id="@+id/btn_ex5_port"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00BF63"
-        android:text="Ex Sexta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
-
-    <Button
-        android:id="@+id/btn_ex3_port"
-        android:layout_width="108dp"
-        android:layout_height="88dp"
-        android:backgroundTint="#00BF63"
+        android:backgroundTint="#00bf63"
         android:text="Ex Quarta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <Button
-        android:id="@+id/btn_ex6_port"
+        android:id="@+id/btn_ex4_cien"
         android:layout_width="108dp"
         android:layout_height="88dp"
-        android:backgroundTint="#00BF63"
-        android:text="Ex sab/dom"
+        android:backgroundTint="#00bf63"
+        android:text="Ex Quinta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.895" />
+
+    <Button
+        android:id="@+id/btn_ex5_cien"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Ex Sexta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <Button
+        android:id="@+id/btn_ex6_cien"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#00bf63"
+        android:text="Ex Sab/Dom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

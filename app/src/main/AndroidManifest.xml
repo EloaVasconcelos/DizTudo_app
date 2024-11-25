@@ -13,6 +13,21 @@
         android:theme="@style/Theme.DizTudo_app"
         tools:targetApi="31">
         <activity
+            android:name=".activity_artes"
+            android:exported="false" />
+        <activity
+            android:name=".activity_filo"
+            android:exported="false" />
+        <activity
+            android:name=".activity_hist"
+            android:exported="false" />
+        <activity
+            android:name=".act_cien"
+            android:exported="false" />
+        <activity
+            android:name=".activity_mat"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity

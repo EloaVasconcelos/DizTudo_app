@@ -46,6 +46,7 @@
         android:backgroundTint="#FF3131"
         android:contentDescription="@string/botao_de_matematica"
         android:fontFamily="@font/inter_bold"
+        android:onClick="janelamat"
         android:text="Matemática"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/view2"
